@@ -1,14 +1,35 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "menu": [
+    {
+      "id": 1,
+      "product": "Fried Chicken",
+      "sub": "Original",
+      "img": "https://i.ibb.co/7k2c1wt/chicken1.png"
+    },
+    {
+      "id": 2,
+      "product": "Fried Chicken",
+      "sub": "Original",
+      "img": "https://i.ibb.co/7k2c1wt/chicken1.png"
+    },
+    {
+      "id": 3,
+      "product": "Fried Chicken",
+      "sub": "Crispy",
+      "img": "https://i.ibb.co/wdzhHmX/chicken2.png",
+      "bundle": [
+        {
+          "size": "big"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "product": "Fried Chicken",
+      "sub": "Box",
+      "img": "https://www.nspackaging.com/wp-content/uploads/sites/4/2019/11/KFC-bucket-chicken.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
 }
